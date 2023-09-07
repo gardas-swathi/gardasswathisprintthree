@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.example.shoeProductDatabase.Entity.Login;
+import com.example.watchstoreDatabase.Entity.Login;
 @Repository
 public interface LoginRepo extends JpaRepository<Login, Integer> {
 
