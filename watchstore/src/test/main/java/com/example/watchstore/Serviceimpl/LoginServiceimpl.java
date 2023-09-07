@@ -4,10 +4,10 @@ package com.example.watchstore.Serviceimpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.shoeProductDatabase.Entity.Login;
-import com.example.shoeProductDatabase.Exception.ResourceNotFoundException;
-import com.example.shoeProductDatabase.Repository.LoginRepo;
-import com.example.shoeProductDatabase.Service.LoginService;
+import com.example.watchstoreDatabase.Entity.Login;
+import com.example.watchstoreDatabase.Exception.ResourceNotFoundException;
+import com.example.watchstoreDatabase.Repository.LoginRepo;
+import com.example.watchstoreDatabase.Service.LoginService;
 @Service
 public class LoginServiceimpl implements LoginService {
 
