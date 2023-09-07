@@ -3,7 +3,7 @@ package com.example.watchstoreDatabase.Repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-import com.example.shoeProductDatabase.Entity.Shoeproduct;
+import com.example.watchstoreDatabase.Entity.watchstore;
 
 public interface watchstoreRepo extends JpaRepository<watchstore, Integer> {
 
