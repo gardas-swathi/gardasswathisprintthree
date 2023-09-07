@@ -1,0 +1,18 @@
+package com.example.watchstoreDatabase.Service;
+
+public class watchstoreService {
+
+}
+package com.example.watchstoreDatabase.Service;
+
+import com.example.watchstoreDatabase.Entity.Shoeproduct;
+
+public interface watchstoreService {
+	
+	watchstore addProduct(watchstore watchstore);
+	
+	watchstore updateProduct(String productname, watchstore watchstore);
+	
+	void deleteproduct(String productname);
+
+}
